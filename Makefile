@@ -1,5 +1,4 @@
 HOME_DIR := $(shell echo $$HOME)
-PROJECT_DIR := dice-mcp-server
 CLAUDE_CONFIG := "$(HOME_DIR)/Library/Application Support/Claude/claude_desktop_config.json"
 CUSTOM_CATALOG := "$(HOME_DIR)/.docker/mcp/catalogs/custom.yaml"
 REGISTRY_FILE := "$(HOME_DIR)/.docker/mcp/registry.yaml"
