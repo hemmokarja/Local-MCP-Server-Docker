@@ -61,9 +61,10 @@ This implementation demonstrates a complete MCP ecosystem running locally on you
 ### Key Components Deep Dive
 
 **🐳 Docker Integration**: 
-- The MCP server runs in an isolated Docker container for security and consistency
-- The gateway manages container communication through Docker's socket API
-- Volume mounts provide access to configuration files and persistent data
+- The MCP server runs in its own isolated Docker container for security and consistency
+- The MCP gateway runs in a separate container that orchestrates your server
+- Docker handles process lifecycle, resource management, and cleanup for both containers
+- Volume mounts provide the gateway access to configuration files
 
 **📁 Configuration Management**:
 - `custom.yaml`: Defines your dice server in the MCP catalog with metadata and tool descriptions
