@@ -2,6 +2,8 @@
 
 A simple MCP (Model Context Protocol) server implementation for learning purposes. This project demonstrates how to build, configure, and deploy a custom MCP server that integrates with Claude Desktop, providing dice rolling functionality for tabletop gaming.
 
+Note, that while the example uses a simple dice-rolling tool, that functionality is intentionally trivial - the real focus of this project is learning how to build and run an MCP server.
+
 ## 📚 What is MCP?
 
 The Model Context Protocol (MCP) is a standardized communication protocol that enables AI assistants like Claude to securely connect with external tools, data sources, and services. Think of it as a universal adapter that allows LLMs to interact with the outside world in a structured, secure way.
